@@ -5,6 +5,7 @@ RUN apt update && apt install -y --no-install-recommends \
   wget \
   tar \
   bash \
+  postgresql-client \
   gettext
 WORKDIR /temp
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
